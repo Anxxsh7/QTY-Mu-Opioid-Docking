@@ -1,0 +1,1086 @@
+{
+  "n_mutations": 77,
+  "mutations": [
+    {
+      "original": "I",
+      "position": 6,
+      "new": "T",
+      "string": "I6T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 8,
+      "new": "T",
+      "string": "I8T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 11,
+      "new": "Q",
+      "string": "L11Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 14,
+      "new": "T",
+      "string": "I14T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 15,
+      "new": "T",
+      "string": "V15T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 17,
+      "new": "T",
+      "string": "V17T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 18,
+      "new": "T",
+      "string": "V18T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 20,
+      "new": "Q",
+      "string": "L20Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 21,
+      "new": "Y",
+      "string": "F21Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 24,
+      "new": "Y",
+      "string": "F24Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 25,
+      "new": "Q",
+      "string": "L25Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 26,
+      "new": "T",
+      "string": "V26T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 42,
+      "new": "T",
+      "string": "I42T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 44,
+      "new": "T",
+      "string": "I44T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 45,
+      "new": "Y",
+      "string": "F45Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 47,
+      "new": "Q",
+      "string": "L47Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 49,
+      "new": "Q",
+      "string": "L49Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 53,
+      "new": "Q",
+      "string": "L53Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 58,
+      "new": "Q",
+      "string": "L58Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 60,
+      "new": "Y",
+      "string": "F60Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 63,
+      "new": "T",
+      "string": "V63T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 66,
+      "new": "Q",
+      "string": "L66Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 79,
+      "new": "T",
+      "string": "I79T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 80,
+      "new": "T",
+      "string": "V80T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 81,
+      "new": "T",
+      "string": "I81T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 83,
+      "new": "T",
+      "string": "I83T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 89,
+      "new": "Y",
+      "string": "F89Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 92,
+      "new": "T",
+      "string": "I92T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 93,
+      "new": "Y",
+      "string": "F93Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 95,
+      "new": "Q",
+      "string": "L95Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 100,
+      "new": "T",
+      "string": "V100T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 123,
+      "new": "T",
+      "string": "I123T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 124,
+      "new": "T",
+      "string": "I124T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 126,
+      "new": "T",
+      "string": "V126T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 130,
+      "new": "T",
+      "string": "I130T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 131,
+      "new": "Q",
+      "string": "L131Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 135,
+      "new": "T",
+      "string": "I135T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 137,
+      "new": "Q",
+      "string": "L137Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 139,
+      "new": "T",
+      "string": "V139T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 141,
+      "new": "Y",
+      "string": "F141Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 168,
+      "new": "Q",
+      "string": "L168Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 169,
+      "new": "Q",
+      "string": "L169Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 171,
+      "new": "T",
+      "string": "I171T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 173,
+      "new": "T",
+      "string": "V173T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 174,
+      "new": "Y",
+      "string": "F174Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 175,
+      "new": "T",
+      "string": "I175T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 176,
+      "new": "Y",
+      "string": "F176Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 178,
+      "new": "Y",
+      "string": "F178Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 179,
+      "new": "T",
+      "string": "I179T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 182,
+      "new": "T",
+      "string": "V182T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 183,
+      "new": "Q",
+      "string": "L183Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 184,
+      "new": "T",
+      "string": "I184T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 185,
+      "new": "T",
+      "string": "I185T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 187,
+      "new": "T",
+      "string": "V187T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 215,
+      "new": "T",
+      "string": "I215T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 219,
+      "new": "T",
+      "string": "V219T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 220,
+      "new": "Q",
+      "string": "L220Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 221,
+      "new": "T",
+      "string": "V221T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 222,
+      "new": "T",
+      "string": "V222T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 223,
+      "new": "T",
+      "string": "V223T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 225,
+      "new": "T",
+      "string": "V225T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 226,
+      "new": "Y",
+      "string": "F226Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 227,
+      "new": "T",
+      "string": "I227T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 228,
+      "new": "T",
+      "string": "V228T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 233,
+      "new": "T",
+      "string": "I233T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 235,
+      "new": "T",
+      "string": "I235T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 237,
+      "new": "T",
+      "string": "V237T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 238,
+      "new": "T",
+      "string": "I238T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 239,
+      "new": "T",
+      "string": "I239T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 250,
+      "new": "Y",
+      "string": "F250Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 253,
+      "new": "T",
+      "string": "V253T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 257,
+      "new": "Y",
+      "string": "F257Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 259,
+      "new": "T",
+      "string": "I259T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 261,
+      "new": "Q",
+      "string": "L261Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 268,
+      "new": "Q",
+      "string": "L268Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 271,
+      "new": "T",
+      "string": "V271T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 272,
+      "new": "Q",
+      "string": "L272Q",
+      "is_qty_rule": true
+    }
+  ],
+  "qty_mutations": [
+    {
+      "original": "I",
+      "position": 6,
+      "new": "T",
+      "string": "I6T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 8,
+      "new": "T",
+      "string": "I8T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 11,
+      "new": "Q",
+      "string": "L11Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 14,
+      "new": "T",
+      "string": "I14T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 15,
+      "new": "T",
+      "string": "V15T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 17,
+      "new": "T",
+      "string": "V17T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 18,
+      "new": "T",
+      "string": "V18T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 20,
+      "new": "Q",
+      "string": "L20Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 21,
+      "new": "Y",
+      "string": "F21Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 24,
+      "new": "Y",
+      "string": "F24Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 25,
+      "new": "Q",
+      "string": "L25Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 26,
+      "new": "T",
+      "string": "V26T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 42,
+      "new": "T",
+      "string": "I42T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 44,
+      "new": "T",
+      "string": "I44T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 45,
+      "new": "Y",
+      "string": "F45Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 47,
+      "new": "Q",
+      "string": "L47Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 49,
+      "new": "Q",
+      "string": "L49Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 53,
+      "new": "Q",
+      "string": "L53Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 58,
+      "new": "Q",
+      "string": "L58Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 60,
+      "new": "Y",
+      "string": "F60Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 63,
+      "new": "T",
+      "string": "V63T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 66,
+      "new": "Q",
+      "string": "L66Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 79,
+      "new": "T",
+      "string": "I79T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 80,
+      "new": "T",
+      "string": "V80T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 81,
+      "new": "T",
+      "string": "I81T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 83,
+      "new": "T",
+      "string": "I83T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 89,
+      "new": "Y",
+      "string": "F89Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 92,
+      "new": "T",
+      "string": "I92T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 93,
+      "new": "Y",
+      "string": "F93Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 95,
+      "new": "Q",
+      "string": "L95Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 100,
+      "new": "T",
+      "string": "V100T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 123,
+      "new": "T",
+      "string": "I123T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 124,
+      "new": "T",
+      "string": "I124T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 126,
+      "new": "T",
+      "string": "V126T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 130,
+      "new": "T",
+      "string": "I130T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 131,
+      "new": "Q",
+      "string": "L131Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 135,
+      "new": "T",
+      "string": "I135T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 137,
+      "new": "Q",
+      "string": "L137Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 139,
+      "new": "T",
+      "string": "V139T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 141,
+      "new": "Y",
+      "string": "F141Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 168,
+      "new": "Q",
+      "string": "L168Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 169,
+      "new": "Q",
+      "string": "L169Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 171,
+      "new": "T",
+      "string": "I171T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 173,
+      "new": "T",
+      "string": "V173T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 174,
+      "new": "Y",
+      "string": "F174Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 175,
+      "new": "T",
+      "string": "I175T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 176,
+      "new": "Y",
+      "string": "F176Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 178,
+      "new": "Y",
+      "string": "F178Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 179,
+      "new": "T",
+      "string": "I179T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 182,
+      "new": "T",
+      "string": "V182T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 183,
+      "new": "Q",
+      "string": "L183Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 184,
+      "new": "T",
+      "string": "I184T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 185,
+      "new": "T",
+      "string": "I185T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 187,
+      "new": "T",
+      "string": "V187T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 215,
+      "new": "T",
+      "string": "I215T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 219,
+      "new": "T",
+      "string": "V219T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 220,
+      "new": "Q",
+      "string": "L220Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 221,
+      "new": "T",
+      "string": "V221T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 222,
+      "new": "T",
+      "string": "V222T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 223,
+      "new": "T",
+      "string": "V223T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 225,
+      "new": "T",
+      "string": "V225T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 226,
+      "new": "Y",
+      "string": "F226Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 227,
+      "new": "T",
+      "string": "I227T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 228,
+      "new": "T",
+      "string": "V228T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 233,
+      "new": "T",
+      "string": "I233T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 235,
+      "new": "T",
+      "string": "I235T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 237,
+      "new": "T",
+      "string": "V237T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 238,
+      "new": "T",
+      "string": "I238T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 239,
+      "new": "T",
+      "string": "I239T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 250,
+      "new": "Y",
+      "string": "F250Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 253,
+      "new": "T",
+      "string": "V253T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "F",
+      "position": 257,
+      "new": "Y",
+      "string": "F257Y",
+      "is_qty_rule": true
+    },
+    {
+      "original": "I",
+      "position": 259,
+      "new": "T",
+      "string": "I259T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 261,
+      "new": "Q",
+      "string": "L261Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 268,
+      "new": "Q",
+      "string": "L268Q",
+      "is_qty_rule": true
+    },
+    {
+      "original": "V",
+      "position": 271,
+      "new": "T",
+      "string": "V271T",
+      "is_qty_rule": true
+    },
+    {
+      "original": "L",
+      "position": 272,
+      "new": "Q",
+      "string": "L272Q",
+      "is_qty_rule": true
+    }
+  ],
+  "non_qty_mutations": []
+}

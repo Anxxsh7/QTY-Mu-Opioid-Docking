@@ -1,0 +1,21 @@
+{
+  "n_structures": 5,
+  "n_successful_docking": 5,
+  "scores": {
+    "mean": -8.120000000000001,
+    "std": 0.285657137141714,
+    "min": -8.5,
+    "max": -7.7,
+    "all": [
+      -8.2,
+      -7.7,
+      -8.3,
+      -7.9,
+      -8.5
+    ]
+  },
+  "asp_salt_bridge": {
+    "n_with_interaction": 0,
+    "fraction": 0.0
+  }
+}

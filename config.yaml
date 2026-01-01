@@ -1,0 +1,234 @@
+# QTY μOR - Fentanyl Docking Pipeline Configuration
+# ================================================
+
+# Project settings
+project_name: "QTY_uOR_Fentanyl"
+output_dir: "results"
+
+# PDB settings
+pdb:
+  id: "8EF5"  # Fentanyl-bound human μOR–Gi structure
+  chain_receptor: "R"  # μOR chain in 8EF5
+  ligand_name: "7V7"  # Fentanyl residue name in 8EF5 (verified)
+  keep_waters: true  # Keep pocket waters within 5Å of ligand
+  water_distance_cutoff: 5.0  # Angstroms
+
+# =============================================================================
+# QTY MUTATIONS - EDIT THIS SECTION
+# =============================================================================
+# Format: list of mutations as "original_residue + residue_number + new_residue"
+# Example: L52Q means Leucine at position 52 mutated to Glutamine
+# 
+# QTY Code: 
+#   L (Leucine) → Q (Glutamine)
+#   I (Isoleucine) → T (Threonine)  
+#   V (Valine) → T (Threonine)
+#   F (Phenylalanine) → Y (Tyrosine)
+#
+# IMPORTANT: Enter your QTY mutations below
+# Use μOR numbering from 8EF5 structure (or UniProt P35372)
+# =============================================================================
+
+qty_mutations:
+  # QTY mutations for OPRM1 (77 total)
+  # Generated from sequence comparison
+  # TM1
+  - "I71T"
+  - "I73T"
+  - "L76Q"
+  - "I79T"
+  - "V80T"
+  - "V82T"
+  - "V83T"
+  - "L85Q"
+  - "F86Y"
+  - "F89Y"
+  - "L90Q"
+  - "V91T"
+  # TM2
+  - "I107T"
+  - "I109T"
+  - "F110Y"
+  - "L112Q"
+  - "L114Q"
+  - "L118Q"
+  - "L123Q"
+  - "F125Y"
+  - "V128T"
+  - "L131Q"
+  # TM3 (⚠️ near binding pocket)
+  - "I144T"
+  - "V145T"
+  - "I146T"
+  - "I148T"  # ⚠️ POCKET - Tyr3.33 region
+  - "F154Y"
+  - "I157T"
+  - "F158Y"
+  - "L160Q"
+  - "V165T"
+  # TM4
+  - "I188T"
+  - "I189T"
+  - "V191T"
+  - "I195T"
+  - "L196Q"
+  - "I200T"
+  - "L202Q"
+  - "V204T"
+  - "F206Y"
+  # TM5
+  - "L233Q"
+  - "L234Q"
+  - "I236T"
+  - "V238T"
+  - "F239Y"
+  - "I240T"
+  - "F241Y"
+  - "F243Y"
+  - "I244T"
+  - "V247T"
+  - "L248Q"
+  - "I249T"
+  - "I250T"
+  - "V252T"
+  # TM6 (⚠️ several near pocket)
+  - "I280T"
+  - "V284T"
+  - "L285Q"
+  - "V286T"
+  - "V287T"
+  - "V288T"
+  - "V290T"
+  - "F291Y"
+  - "I292T"
+  - "V293T"  # ⚠️ POCKET - near Trp6.48
+  - "I298T"  # ⚠️ POCKET - Ile6.53
+  - "I300T"
+  - "V302T"  # ⚠️ POCKET - near Trp7.35
+  - "I303T"
+  - "I304T"
+  # TM7
+  - "F315Y"
+  - "V318T"
+  - "F322Y"
+  - "I324T"
+  - "L326Q"
+  - "L333Q"
+  - "V336T"
+  - "L337Q"
+
+# Alternatively, provide the full QTY sequence
+# If provided, mutations will be auto-detected by comparison to WT
+qty_sequence: null  # Set to your full QTY sequence string, or leave as null
+
+# Wild-type sequence for comparison (UniProt P35372, residues 65-352 for 7TM)
+wt_sequence: null  # Will be extracted from 8EF5 if null
+
+# =============================================================================
+# Relaxation/Minimization Settings
+# =============================================================================
+relaxation:
+  method: "openmm"  # openmm or rosetta
+  forcefield: "amber14-all.xml"
+  water_model: "amber14/tip3pfb.xml"
+  
+  # Minimization settings
+  minimization:
+    max_iterations: 1000
+    tolerance: 10.0  # kJ/mol/nm
+  
+  # Short relaxation MD
+  relaxation_md:
+    steps: 25000  # 50 ps at 2 fs timestep
+    temperature: 300  # Kelvin
+    
+  # Ensemble generation
+  ensemble:
+    n_structures: 20  # Generate 20 relaxed conformations
+    seeds: null  # Will auto-generate if null
+
+# =============================================================================
+# Docking Settings
+# =============================================================================
+docking:
+  program: "smina"  # smina or vina
+  
+  # Box definition (will be auto-centered on fentanyl from 8EF5)
+  box:
+    center: null  # Auto-detect from ligand COM
+    size: [25, 25, 25]  # Box size in Angstroms
+    
+  # Docking parameters
+  exhaustiveness: 32
+  num_modes: 20
+  energy_range: 5  # kcal/mol
+  
+  # Scoring
+  scoring: "vinardo"  # vinardo or default vina
+
+# =============================================================================
+# MD Simulation Settings
+# =============================================================================
+md_simulation:
+  # System setup
+  box_padding: 12.0  # Angstroms from protein
+  ionic_strength: 0.15  # Molar NaCl
+  
+  # Equilibration
+  equilibration:
+    nvt_steps: 50000  # 100 ps NVT
+    npt_steps: 250000  # 500 ps NPT
+    restraint_force: 100.0  # kJ/mol/nm^2 on backbone
+    
+  # Production MD
+  production:
+    duration_ns: 50  # nanoseconds per run
+    n_replicates: 3
+    timestep_fs: 2.0
+    save_interval_ps: 10  # Save every 10 ps
+    
+  # Restraint schedule (gradually release)
+  restraints:
+    initial_backbone: 100.0  # kJ/mol/nm^2
+    release_steps: 5
+    release_duration_ps: 100  # Per step
+
+# =============================================================================
+# Analysis Settings
+# =============================================================================
+analysis:
+  # Ligand RMSD threshold for "bound"
+  rmsd_threshold: 3.0  # Angstroms
+  
+  # Key residues to monitor (based on 8EF5 structure)
+  # CRITICAL: These are the residue numbers from the actual sequence
+  key_residues:
+    asp_3_32: 147  # Asp3.32 - CRITICAL for opioid binding (PRESERVED in QTY)
+    tyr_3_33: 148  # Tyr3.33 - ⚠️ I148T mutation here
+    his_6_52: 297  # His6.52
+    trp_6_48: 293  # Trp6.48 (toggle switch) - ⚠️ V293T nearby
+    ile_6_53: 298  # ⚠️ I298T mutation here
+    
+  # Pocket residues to monitor for collapse (some are mutated)
+  pocket_residues_to_watch:
+    - 147  # Asp3.32 - preserved
+    - 148  # I148T - mutated
+    - 293  # V293T - mutated  
+    - 298  # I298T - mutated
+    - 302  # V302T - mutated
+    
+  # Salt bridge distance cutoff
+  salt_bridge_cutoff: 4.0  # Angstroms
+  
+  # MM/GBSA settings
+  mmgbsa:
+    method: "MMPBSA.py"  # or gmx_MMPBSA
+    frames_stride: 10
+
+# =============================================================================
+# Control Runs
+# =============================================================================
+controls:
+  run_wt: true  # Run WT μOR as positive control
+  run_negative: true  # Run Asp3.32Ala as negative control
+  negative_mutation: "D147A"  # Adjust residue number for your structure

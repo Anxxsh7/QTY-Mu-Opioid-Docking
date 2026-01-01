@@ -1,0 +1,55 @@
+REMARK minimizedAffinity -6.83293343
+REMARK minimizedRMSD -1
+REMARK  Name = 04_docking/output/fentanyl.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_16
+REMARK    2  A    between atoms: C_2  and  C_17
+REMARK    3  A    between atoms: C_5  and  N_23
+REMARK    4  A    between atoms: C_9  and  C_10
+REMARK    5  A    between atoms: C_10  and  C_11
+REMARK    6  A    between atoms: C_12  and  N_23
+REMARK    7  A    between atoms: C_16  and  N_24
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     101.570 106.388 125.104  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1     101.428 105.114 127.318  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1     102.071 103.926 126.581  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1     101.843 103.979 125.069  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1     101.757 106.443 126.622  0.00  0.00    +0.000 C 
+ATOM      6  N   UNL     1     102.329 105.267 124.531  0.00  0.00    +0.000 N 
+ATOM      7  H   UNL     1     103.308 105.360 124.803  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   2   9
+ATOM      8  C   UNL     1     100.648 105.019 129.703  0.00  0.00    +0.000 C 
+ATOM      9  N   UNL     1     101.736 105.118 128.771  0.00  0.00    +0.000 N 
+ATOM     10  O   UNL     1      99.675 104.332 129.460  0.00  0.00    +0.000 OA
+BRANCH   9  11
+ATOM     11  C   UNL     1     103.146 105.199 129.252  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1     103.675 104.005 129.737  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1     104.971 103.928 130.217  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     105.258 106.262 129.740  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1     105.762 105.062 130.216  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1     103.956 106.322 129.262  0.00  0.00    +0.000 A 
+ENDBRANCH   9  11
+BRANCH   8  17
+ATOM     17  C   UNL     1     100.610 105.749 131.058  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1     100.733 104.737 132.214  0.00  0.00    +0.000 C 
+ENDBRANCH   8  17
+ENDBRANCH   2   9
+BRANCH   6  19
+ATOM     19  C   UNL     1     102.279 105.303 123.059  0.00  0.00    +0.000 C 
+BRANCH  19  20
+ATOM     20  C   UNL     1     103.283 104.351 122.416  0.00  0.00    +0.000 C 
+BRANCH  20  23
+ATOM     21  C   UNL     1     104.968 105.269 120.778  0.00  0.00    +0.000 A 
+ATOM     22  C   UNL     1     106.885 106.459 121.542  0.00  0.00    +0.000 A 
+ATOM     23  C   UNL     1     104.575 105.107 122.097  0.00  0.00    +0.000 A 
+ATOM     24  C   UNL     1     106.133 105.953 120.504  0.00  0.00    +0.000 A 
+ATOM     25  C   UNL     1     106.503 106.301 122.852  0.00  0.00    +0.000 A 
+ATOM     26  C   UNL     1     105.335 105.616 123.131  0.00  0.00    +0.000 A 
+ENDBRANCH  20  23
+ENDBRANCH  19  20
+ENDBRANCH   6  19
+TORSDOF 6

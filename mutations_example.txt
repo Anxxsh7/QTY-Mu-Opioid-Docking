@@ -1,0 +1,53 @@
+# Example QTY Mutations File
+# ==========================
+# List your QTY mutations here, one per line
+# Format: OriginalResidue + ResidueNumber + NewResidue
+#
+# QTY Code Reference:
+#   L (Leucine) → Q (Glutamine)
+#   I (Isoleucine) → T (Threonine)
+#   V (Valine) → T (Threonine)
+#   F (Phenylalanine) → Y (Tyrosine)
+#
+# Lines starting with # are comments and will be ignored
+# 
+# IMPORTANT: Use residue numbering from the 8EF5 PDB structure
+# 
+# Example mutations for transmembrane helices:
+# (Replace these with your actual QTY mutations)
+
+# TM1 (approximate residues 65-95)
+# L65Q
+# I67T
+# V70T
+
+# TM2 (approximate residues 100-130)
+# L102Q
+# I106T
+
+# TM3 (approximate residues 135-165)
+# WARNING: Be careful with mutations near Asp147 (Asp3.32) - this is critical for binding!
+# L140Q
+# V144T
+
+# TM4 (approximate residues 175-200)
+# L180Q
+# I183T
+
+# TM5 (approximate residues 225-255)
+# L230Q
+# V235T
+
+# TM6 (approximate residues 270-300)
+# WARNING: Residues near the binding pocket (290-300) are sensitive
+# L275Q
+# I278T
+
+# TM7 (approximate residues 310-340)
+# L315Q
+# V320T
+
+# ============================================================
+# ADD YOUR ACTUAL QTY MUTATIONS BELOW THIS LINE
+# ============================================================
+

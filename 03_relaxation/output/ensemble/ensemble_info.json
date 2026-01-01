@@ -1,0 +1,19 @@
+{
+  "n_structures": 5,
+  "relaxation_steps": 2500,
+  "temperature": 300.0,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "files": [
+    "03_relaxation/output/ensemble/ensemble_001.pdb",
+    "03_relaxation/output/ensemble/ensemble_002.pdb",
+    "03_relaxation/output/ensemble/ensemble_003.pdb",
+    "03_relaxation/output/ensemble/ensemble_004.pdb",
+    "03_relaxation/output/ensemble/ensemble_005.pdb"
+  ]
+}

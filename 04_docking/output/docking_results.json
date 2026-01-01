@@ -1,0 +1,764 @@
+{
+  "n_receptors": 5,
+  "n_successful": 5,
+  "results": [
+    {
+      "output_file": "04_docking/output/ensemble_001_docked.pdbqt",
+      "scores": [
+        {
+          "mode": 1,
+          "affinity": -8.2,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity": -8.0,
+          "rmsd_lb": 4.387,
+          "rmsd_ub": 6.822
+        },
+        {
+          "mode": 3,
+          "affinity": -8.0,
+          "rmsd_lb": 2.966,
+          "rmsd_ub": 3.502
+        },
+        {
+          "mode": 4,
+          "affinity": -7.7,
+          "rmsd_lb": 4.34,
+          "rmsd_ub": 6.657
+        },
+        {
+          "mode": 5,
+          "affinity": -7.4,
+          "rmsd_lb": 4.341,
+          "rmsd_ub": 6.524
+        },
+        {
+          "mode": 6,
+          "affinity": -7.4,
+          "rmsd_lb": 1.862,
+          "rmsd_ub": 2.608
+        },
+        {
+          "mode": 7,
+          "affinity": -7.2,
+          "rmsd_lb": 4.789,
+          "rmsd_ub": 7.525
+        },
+        {
+          "mode": 8,
+          "affinity": -7.2,
+          "rmsd_lb": 3.975,
+          "rmsd_ub": 7.354
+        },
+        {
+          "mode": 9,
+          "affinity": -7.0,
+          "rmsd_lb": 3.193,
+          "rmsd_ub": 7.589
+        },
+        {
+          "mode": 10,
+          "affinity": -7.0,
+          "rmsd_lb": 3.431,
+          "rmsd_ub": 7.359
+        },
+        {
+          "mode": 11,
+          "affinity": -6.9,
+          "rmsd_lb": 2.927,
+          "rmsd_ub": 4.614
+        },
+        {
+          "mode": 12,
+          "affinity": -6.9,
+          "rmsd_lb": 3.485,
+          "rmsd_ub": 8.144
+        },
+        {
+          "mode": 13,
+          "affinity": -6.9,
+          "rmsd_lb": 2.565,
+          "rmsd_ub": 4.453
+        },
+        {
+          "mode": 14,
+          "affinity": -6.8,
+          "rmsd_lb": 2.922,
+          "rmsd_ub": 4.281
+        },
+        {
+          "mode": 15,
+          "affinity": -6.7,
+          "rmsd_lb": 2.236,
+          "rmsd_ub": 3.162
+        },
+        {
+          "mode": 16,
+          "affinity": -6.7,
+          "rmsd_lb": 1.327,
+          "rmsd_ub": 3.173
+        },
+        {
+          "mode": 17,
+          "affinity": -6.6,
+          "rmsd_lb": 2.8,
+          "rmsd_ub": 4.84
+        },
+        {
+          "mode": 18,
+          "affinity": -6.6,
+          "rmsd_lb": 2.193,
+          "rmsd_ub": 4.137
+        },
+        {
+          "mode": 19,
+          "affinity": -6.5,
+          "rmsd_lb": 2.93,
+          "rmsd_ub": 5.359
+        },
+        {
+          "mode": 20,
+          "affinity": -6.5,
+          "rmsd_lb": 5.9,
+          "rmsd_ub": 9.461
+        }
+      ],
+      "stdout": "   _______  _______ _________ _        _______ \n  (  ____ \\(       )\\__   __/( (    /|(  ___  )\n  | (    \\/| () () |   ) (   |  \\  ( || (   ) |\n  | (_____ | || || |   | |   |   \\ | || (___) |\n  (_____  )| |(_)| |   | |   | (\\ \\) ||  ___  |\n        ) || |   | |   | |   | | \\   || (   ) |\n  /\\____) || )   ( |___) (___| )  \\  || )   ( |\n  \\_______)|/     \\|\\_______/|/    )_)|/     \\|\n\n\nsmina is based off AutoDock Vina. Please cite appropriately.\n\nWeights      Terms\n-0.045       gauss(o=0,_w=0.8,_c=8)\n0.8          repulsion(o=0,_c=8)\n-0.035       hydrophobic(g=0,_b=2.5,_c=8)\n-0.6         non_dir_h_bond(g=-0.6,_b=0,_c=8)\n0            num_tors_div\n\nUsing random seed: 1448478080\n\n0%   10   20   30   40   50   60   70   80   90   100%\n|----|----|----|----|----|----|----|----|----|----|\n***************************************************\n\nmode |   affinity | dist from best mode\n     | (kcal/mol) | rmsd l.b.| rmsd u.b.\n-----+------------+----------+----------\n1       -8.2       0.000      0.000    \n2       -8.0       4.387      6.822    \n3       -8.0       2.966      3.502    \n4       -7.7       4.340      6.657    \n5       -7.4       4.341      6.524    \n6       -7.4       1.862      2.608    \n7       -7.2       4.789      7.525    \n8       -7.2       3.975      7.354    \n9       -7.0       3.193      7.589    \n10      -7.0       3.431      7.359    \n11      -6.9       2.927      4.614    \n12      -6.9       3.485      8.144    \n13      -6.9       2.565      4.453    \n14      -6.8       2.922      4.281    \n15      -6.7       2.236      3.162    \n16      -6.7       1.327      3.173    \n17      -6.6       2.800      4.840    \n18      -6.6       2.193      4.137    \n19      -6.5       2.930      5.359    \n20      -6.5       5.900      9.461    \nRefine time 12.519\nLoop time 13.714\n",
+      "asp_interaction": {
+        "found": false,
+        "reason": "Asp82 not found"
+      },
+      "receptor": "03_relaxation/output/ensemble/ensemble_001.pdb",
+      "poses": [
+        "04_docking/output/ensemble_001_poses/pose_01.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_02.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_03.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_04.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_05.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_06.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_07.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_08.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_09.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_10.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_11.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_12.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_13.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_14.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_15.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_16.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_17.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_18.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_19.pdbqt",
+        "04_docking/output/ensemble_001_poses/pose_20.pdbqt"
+      ]
+    },
+    {
+      "output_file": "04_docking/output/ensemble_002_docked.pdbqt",
+      "scores": [
+        {
+          "mode": 1,
+          "affinity": -7.7,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity": -7.5,
+          "rmsd_lb": 3.743,
+          "rmsd_ub": 7.624
+        },
+        {
+          "mode": 3,
+          "affinity": -7.5,
+          "rmsd_lb": 2.288,
+          "rmsd_ub": 3.863
+        },
+        {
+          "mode": 4,
+          "affinity": -7.3,
+          "rmsd_lb": 2.897,
+          "rmsd_ub": 3.988
+        },
+        {
+          "mode": 5,
+          "affinity": -7.3,
+          "rmsd_lb": 0.61,
+          "rmsd_ub": 1.479
+        },
+        {
+          "mode": 6,
+          "affinity": -7.2,
+          "rmsd_lb": 2.57,
+          "rmsd_ub": 4.489
+        },
+        {
+          "mode": 7,
+          "affinity": -7.1,
+          "rmsd_lb": 3.873,
+          "rmsd_ub": 7.441
+        },
+        {
+          "mode": 8,
+          "affinity": -7.1,
+          "rmsd_lb": 0.682,
+          "rmsd_ub": 1.287
+        },
+        {
+          "mode": 9,
+          "affinity": -6.9,
+          "rmsd_lb": 2.176,
+          "rmsd_ub": 3.086
+        },
+        {
+          "mode": 10,
+          "affinity": -6.9,
+          "rmsd_lb": 3.759,
+          "rmsd_ub": 5.944
+        },
+        {
+          "mode": 11,
+          "affinity": -6.9,
+          "rmsd_lb": 1.584,
+          "rmsd_ub": 3.348
+        },
+        {
+          "mode": 12,
+          "affinity": -6.8,
+          "rmsd_lb": 2.736,
+          "rmsd_ub": 8.384
+        },
+        {
+          "mode": 13,
+          "affinity": -6.8,
+          "rmsd_lb": 4.574,
+          "rmsd_ub": 5.533
+        },
+        {
+          "mode": 14,
+          "affinity": -6.8,
+          "rmsd_lb": 2.466,
+          "rmsd_ub": 7.524
+        },
+        {
+          "mode": 15,
+          "affinity": -6.7,
+          "rmsd_lb": 1.43,
+          "rmsd_ub": 2.109
+        },
+        {
+          "mode": 16,
+          "affinity": -6.6,
+          "rmsd_lb": 2.886,
+          "rmsd_ub": 8.273
+        },
+        {
+          "mode": 17,
+          "affinity": -6.6,
+          "rmsd_lb": 3.163,
+          "rmsd_ub": 7.995
+        },
+        {
+          "mode": 18,
+          "affinity": -6.6,
+          "rmsd_lb": 2.915,
+          "rmsd_ub": 4.382
+        },
+        {
+          "mode": 19,
+          "affinity": -6.6,
+          "rmsd_lb": 2.531,
+          "rmsd_ub": 3.825
+        },
+        {
+          "mode": 20,
+          "affinity": -6.5,
+          "rmsd_lb": 4.539,
+          "rmsd_ub": 5.995
+        }
+      ],
+      "stdout": "   _______  _______ _________ _        _______ \n  (  ____ \\(       )\\__   __/( (    /|(  ___  )\n  | (    \\/| () () |   ) (   |  \\  ( || (   ) |\n  | (_____ | || || |   | |   |   \\ | || (___) |\n  (_____  )| |(_)| |   | |   | (\\ \\) ||  ___  |\n        ) || |   | |   | |   | | \\   || (   ) |\n  /\\____) || )   ( |___) (___| )  \\  || )   ( |\n  \\_______)|/     \\|\\_______/|/    )_)|/     \\|\n\n\nsmina is based off AutoDock Vina. Please cite appropriately.\n\nWeights      Terms\n-0.045       gauss(o=0,_w=0.8,_c=8)\n0.8          repulsion(o=0,_c=8)\n-0.035       hydrophobic(g=0,_b=2.5,_c=8)\n-0.6         non_dir_h_bond(g=-0.6,_b=0,_c=8)\n0            num_tors_div\n\nUsing random seed: -1592309352\n\n0%   10   20   30   40   50   60   70   80   90   100%\n|----|----|----|----|----|----|----|----|----|----|\n***************************************************\n\nmode |   affinity | dist from best mode\n     | (kcal/mol) | rmsd l.b.| rmsd u.b.\n-----+------------+----------+----------\n1       -7.7       0.000      0.000    \n2       -7.5       3.743      7.624    \n3       -7.5       2.288      3.863    \n4       -7.3       2.897      3.988    \n5       -7.3       0.610      1.479    \n6       -7.2       2.570      4.489    \n7       -7.1       3.873      7.441    \n8       -7.1       0.682      1.287    \n9       -6.9       2.176      3.086    \n10      -6.9       3.759      5.944    \n11      -6.9       1.584      3.348    \n12      -6.8       2.736      8.384    \n13      -6.8       4.574      5.533    \n14      -6.8       2.466      7.524    \n15      -6.7       1.430      2.109    \n16      -6.6       2.886      8.273    \n17      -6.6       3.163      7.995    \n18      -6.6       2.915      4.382    \n19      -6.6       2.531      3.825    \n20      -6.5       4.539      5.995    \nRefine time 13.138\nLoop time 14.329\n",
+      "asp_interaction": {
+        "found": false,
+        "reason": "Asp82 not found"
+      },
+      "receptor": "03_relaxation/output/ensemble/ensemble_002.pdb",
+      "poses": [
+        "04_docking/output/ensemble_002_poses/pose_01.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_02.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_03.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_04.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_05.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_06.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_07.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_08.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_09.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_10.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_11.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_12.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_13.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_14.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_15.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_16.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_17.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_18.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_19.pdbqt",
+        "04_docking/output/ensemble_002_poses/pose_20.pdbqt"
+      ]
+    },
+    {
+      "output_file": "04_docking/output/ensemble_003_docked.pdbqt",
+      "scores": [
+        {
+          "mode": 1,
+          "affinity": -8.3,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity": -7.3,
+          "rmsd_lb": 4.628,
+          "rmsd_ub": 7.843
+        },
+        {
+          "mode": 3,
+          "affinity": -7.3,
+          "rmsd_lb": 3.918,
+          "rmsd_ub": 7.807
+        },
+        {
+          "mode": 4,
+          "affinity": -7.0,
+          "rmsd_lb": 2.036,
+          "rmsd_ub": 7.866
+        },
+        {
+          "mode": 5,
+          "affinity": -7.0,
+          "rmsd_lb": 1.416,
+          "rmsd_ub": 3.595
+        },
+        {
+          "mode": 6,
+          "affinity": -6.9,
+          "rmsd_lb": 3.709,
+          "rmsd_ub": 7.38
+        },
+        {
+          "mode": 7,
+          "affinity": -6.9,
+          "rmsd_lb": 1.086,
+          "rmsd_ub": 1.508
+        },
+        {
+          "mode": 8,
+          "affinity": -6.8,
+          "rmsd_lb": 2.933,
+          "rmsd_ub": 4.897
+        },
+        {
+          "mode": 9,
+          "affinity": -6.8,
+          "rmsd_lb": 3.012,
+          "rmsd_ub": 4.007
+        },
+        {
+          "mode": 10,
+          "affinity": -6.6,
+          "rmsd_lb": 2.988,
+          "rmsd_ub": 8.156
+        },
+        {
+          "mode": 11,
+          "affinity": -6.5,
+          "rmsd_lb": 4.319,
+          "rmsd_ub": 5.53
+        },
+        {
+          "mode": 12,
+          "affinity": -6.5,
+          "rmsd_lb": 3.666,
+          "rmsd_ub": 7.95
+        },
+        {
+          "mode": 13,
+          "affinity": -6.4,
+          "rmsd_lb": 3.955,
+          "rmsd_ub": 7.209
+        },
+        {
+          "mode": 14,
+          "affinity": -6.4,
+          "rmsd_lb": 2.985,
+          "rmsd_ub": 4.135
+        },
+        {
+          "mode": 15,
+          "affinity": -6.3,
+          "rmsd_lb": 2.794,
+          "rmsd_ub": 8.49
+        },
+        {
+          "mode": 16,
+          "affinity": -6.3,
+          "rmsd_lb": 2.775,
+          "rmsd_ub": 4.308
+        },
+        {
+          "mode": 17,
+          "affinity": -6.3,
+          "rmsd_lb": 4.641,
+          "rmsd_ub": 9.623
+        },
+        {
+          "mode": 18,
+          "affinity": -6.3,
+          "rmsd_lb": 2.058,
+          "rmsd_ub": 3.098
+        },
+        {
+          "mode": 19,
+          "affinity": -6.2,
+          "rmsd_lb": 4.3,
+          "rmsd_ub": 6.524
+        }
+      ],
+      "stdout": "   _______  _______ _________ _        _______ \n  (  ____ \\(       )\\__   __/( (    /|(  ___  )\n  | (    \\/| () () |   ) (   |  \\  ( || (   ) |\n  | (_____ | || || |   | |   |   \\ | || (___) |\n  (_____  )| |(_)| |   | |   | (\\ \\) ||  ___  |\n        ) || |   | |   | |   | | \\   || (   ) |\n  /\\____) || )   ( |___) (___| )  \\  || )   ( |\n  \\_______)|/     \\|\\_______/|/    )_)|/     \\|\n\n\nsmina is based off AutoDock Vina. Please cite appropriately.\n\nWeights      Terms\n-0.045       gauss(o=0,_w=0.8,_c=8)\n0.8          repulsion(o=0,_c=8)\n-0.035       hydrophobic(g=0,_b=2.5,_c=8)\n-0.6         non_dir_h_bond(g=-0.6,_b=0,_c=8)\n0            num_tors_div\n\nUsing random seed: 668710980\n\n0%   10   20   30   40   50   60   70   80   90   100%\n|----|----|----|----|----|----|----|----|----|----|\n***************************************************\n\nmode |   affinity | dist from best mode\n     | (kcal/mol) | rmsd l.b.| rmsd u.b.\n-----+------------+----------+----------\n1       -8.3       0.000      0.000    \n2       -7.3       4.628      7.843    \n3       -7.3       3.918      7.807    \n4       -7.0       2.036      7.866    \n5       -7.0       1.416      3.595    \n6       -6.9       3.709      7.380    \n7       -6.9       1.086      1.508    \n8       -6.8       2.933      4.897    \n9       -6.8       3.012      4.007    \n10      -6.6       2.988      8.156    \n11      -6.5       4.319      5.530    \n12      -6.5       3.666      7.950    \n13      -6.4       3.955      7.209    \n14      -6.4       2.985      4.135    \n15      -6.3       2.794      8.490    \n16      -6.3       2.775      4.308    \n17      -6.3       4.641      9.623    \n18      -6.3       2.058      3.098    \n19      -6.2       4.300      6.524    \nRefine time 13.428\nLoop time 14.668\n",
+      "asp_interaction": {
+        "found": false,
+        "reason": "Asp82 not found"
+      },
+      "receptor": "03_relaxation/output/ensemble/ensemble_003.pdb",
+      "poses": [
+        "04_docking/output/ensemble_003_poses/pose_01.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_02.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_03.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_04.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_05.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_06.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_07.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_08.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_09.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_10.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_11.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_12.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_13.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_14.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_15.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_16.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_17.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_18.pdbqt",
+        "04_docking/output/ensemble_003_poses/pose_19.pdbqt"
+      ]
+    },
+    {
+      "output_file": "04_docking/output/ensemble_004_docked.pdbqt",
+      "scores": [
+        {
+          "mode": 1,
+          "affinity": -7.9,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity": -7.6,
+          "rmsd_lb": 2.285,
+          "rmsd_ub": 7.761
+        },
+        {
+          "mode": 3,
+          "affinity": -7.5,
+          "rmsd_lb": 4.963,
+          "rmsd_ub": 8.196
+        },
+        {
+          "mode": 4,
+          "affinity": -7.5,
+          "rmsd_lb": 4.365,
+          "rmsd_ub": 7.523
+        },
+        {
+          "mode": 5,
+          "affinity": -7.4,
+          "rmsd_lb": 4.29,
+          "rmsd_ub": 7.484
+        },
+        {
+          "mode": 6,
+          "affinity": -7.4,
+          "rmsd_lb": 4.24,
+          "rmsd_ub": 8.097
+        },
+        {
+          "mode": 7,
+          "affinity": -7.4,
+          "rmsd_lb": 3.242,
+          "rmsd_ub": 7.105
+        },
+        {
+          "mode": 8,
+          "affinity": -7.4,
+          "rmsd_lb": 4.062,
+          "rmsd_ub": 7.797
+        },
+        {
+          "mode": 9,
+          "affinity": -7.3,
+          "rmsd_lb": 1.786,
+          "rmsd_ub": 3.512
+        },
+        {
+          "mode": 10,
+          "affinity": -7.2,
+          "rmsd_lb": 0.887,
+          "rmsd_ub": 1.514
+        },
+        {
+          "mode": 11,
+          "affinity": -7.2,
+          "rmsd_lb": 5.057,
+          "rmsd_ub": 8.004
+        },
+        {
+          "mode": 12,
+          "affinity": -7.2,
+          "rmsd_lb": 4.874,
+          "rmsd_ub": 7.733
+        },
+        {
+          "mode": 13,
+          "affinity": -7.1,
+          "rmsd_lb": 2.026,
+          "rmsd_ub": 6.712
+        },
+        {
+          "mode": 14,
+          "affinity": -7.1,
+          "rmsd_lb": 3.958,
+          "rmsd_ub": 7.336
+        },
+        {
+          "mode": 15,
+          "affinity": -7.0,
+          "rmsd_lb": 4.968,
+          "rmsd_ub": 7.735
+        },
+        {
+          "mode": 16,
+          "affinity": -7.0,
+          "rmsd_lb": 2.69,
+          "rmsd_ub": 7.169
+        },
+        {
+          "mode": 17,
+          "affinity": -7.0,
+          "rmsd_lb": 1.537,
+          "rmsd_ub": 3.075
+        },
+        {
+          "mode": 18,
+          "affinity": -6.9,
+          "rmsd_lb": 5.903,
+          "rmsd_ub": 7.568
+        },
+        {
+          "mode": 19,
+          "affinity": -6.9,
+          "rmsd_lb": 3.566,
+          "rmsd_ub": 8.199
+        },
+        {
+          "mode": 20,
+          "affinity": -6.9,
+          "rmsd_lb": 4.731,
+          "rmsd_ub": 7.91
+        }
+      ],
+      "stdout": "   _______  _______ _________ _        _______ \n  (  ____ \\(       )\\__   __/( (    /|(  ___  )\n  | (    \\/| () () |   ) (   |  \\  ( || (   ) |\n  | (_____ | || || |   | |   |   \\ | || (___) |\n  (_____  )| |(_)| |   | |   | (\\ \\) ||  ___  |\n        ) || |   | |   | |   | | \\   || (   ) |\n  /\\____) || )   ( |___) (___| )  \\  || )   ( |\n  \\_______)|/     \\|\\_______/|/    )_)|/     \\|\n\n\nsmina is based off AutoDock Vina. Please cite appropriately.\n\nWeights      Terms\n-0.045       gauss(o=0,_w=0.8,_c=8)\n0.8          repulsion(o=0,_c=8)\n-0.035       hydrophobic(g=0,_b=2.5,_c=8)\n-0.6         non_dir_h_bond(g=-0.6,_b=0,_c=8)\n0            num_tors_div\n\nUsing random seed: -1611580713\n\n0%   10   20   30   40   50   60   70   80   90   100%\n|----|----|----|----|----|----|----|----|----|----|\n***************************************************\n\nmode |   affinity | dist from best mode\n     | (kcal/mol) | rmsd l.b.| rmsd u.b.\n-----+------------+----------+----------\n1       -7.9       0.000      0.000    \n2       -7.6       2.285      7.761    \n3       -7.5       4.963      8.196    \n4       -7.5       4.365      7.523    \n5       -7.4       4.290      7.484    \n6       -7.4       4.240      8.097    \n7       -7.4       3.242      7.105    \n8       -7.4       4.062      7.797    \n9       -7.3       1.786      3.512    \n10      -7.2       0.887      1.514    \n11      -7.2       5.057      8.004    \n12      -7.2       4.874      7.733    \n13      -7.1       2.026      6.712    \n14      -7.1       3.958      7.336    \n15      -7.0       4.968      7.735    \n16      -7.0       2.690      7.169    \n17      -7.0       1.537      3.075    \n18      -6.9       5.903      7.568    \n19      -6.9       3.566      8.199    \n20      -6.9       4.731      7.910    \nRefine time 13.177\nLoop time 14.404\n",
+      "asp_interaction": {
+        "found": false,
+        "reason": "Asp82 not found"
+      },
+      "receptor": "03_relaxation/output/ensemble/ensemble_004.pdb",
+      "poses": [
+        "04_docking/output/ensemble_004_poses/pose_01.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_02.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_03.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_04.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_05.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_06.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_07.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_08.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_09.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_10.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_11.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_12.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_13.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_14.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_15.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_16.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_17.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_18.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_19.pdbqt",
+        "04_docking/output/ensemble_004_poses/pose_20.pdbqt"
+      ]
+    },
+    {
+      "output_file": "04_docking/output/ensemble_005_docked.pdbqt",
+      "scores": [
+        {
+          "mode": 1,
+          "affinity": -8.5,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity": -8.3,
+          "rmsd_lb": 1.844,
+          "rmsd_ub": 8.595
+        },
+        {
+          "mode": 3,
+          "affinity": -8.3,
+          "rmsd_lb": 2.635,
+          "rmsd_ub": 8.345
+        },
+        {
+          "mode": 4,
+          "affinity": -8.2,
+          "rmsd_lb": 1.919,
+          "rmsd_ub": 8.697
+        },
+        {
+          "mode": 5,
+          "affinity": -8.2,
+          "rmsd_lb": 2.494,
+          "rmsd_ub": 8.659
+        },
+        {
+          "mode": 6,
+          "affinity": -8.1,
+          "rmsd_lb": 1.437,
+          "rmsd_ub": 3.178
+        },
+        {
+          "mode": 7,
+          "affinity": -8.0,
+          "rmsd_lb": 2.187,
+          "rmsd_ub": 8.558
+        },
+        {
+          "mode": 8,
+          "affinity": -8.0,
+          "rmsd_lb": 2.88,
+          "rmsd_ub": 8.723
+        },
+        {
+          "mode": 9,
+          "affinity": -7.9,
+          "rmsd_lb": 2.106,
+          "rmsd_ub": 3.398
+        },
+        {
+          "mode": 10,
+          "affinity": -7.9,
+          "rmsd_lb": 3.106,
+          "rmsd_ub": 4.342
+        },
+        {
+          "mode": 11,
+          "affinity": -7.9,
+          "rmsd_lb": 3.941,
+          "rmsd_ub": 6.127
+        },
+        {
+          "mode": 12,
+          "affinity": -7.7,
+          "rmsd_lb": 2.655,
+          "rmsd_ub": 8.242
+        },
+        {
+          "mode": 13,
+          "affinity": -7.7,
+          "rmsd_lb": 3.343,
+          "rmsd_ub": 5.088
+        },
+        {
+          "mode": 14,
+          "affinity": -7.6,
+          "rmsd_lb": 3.782,
+          "rmsd_ub": 7.016
+        },
+        {
+          "mode": 15,
+          "affinity": -7.6,
+          "rmsd_lb": 2.197,
+          "rmsd_ub": 8.297
+        },
+        {
+          "mode": 16,
+          "affinity": -7.5,
+          "rmsd_lb": 2.463,
+          "rmsd_ub": 8.559
+        },
+        {
+          "mode": 17,
+          "affinity": -7.5,
+          "rmsd_lb": 3.211,
+          "rmsd_ub": 5.058
+        },
+        {
+          "mode": 18,
+          "affinity": -7.5,
+          "rmsd_lb": 2.22,
+          "rmsd_ub": 8.504
+        },
+        {
+          "mode": 19,
+          "affinity": -7.5,
+          "rmsd_lb": 2.807,
+          "rmsd_ub": 4.34
+        },
+        {
+          "mode": 20,
+          "affinity": -7.4,
+          "rmsd_lb": 3.119,
+          "rmsd_ub": 6.784
+        }
+      ],
+      "stdout": "   _______  _______ _________ _        _______ \n  (  ____ \\(       )\\__   __/( (    /|(  ___  )\n  | (    \\/| () () |   ) (   |  \\  ( || (   ) |\n  | (_____ | || || |   | |   |   \\ | || (___) |\n  (_____  )| |(_)| |   | |   | (\\ \\) ||  ___  |\n        ) || |   | |   | |   | | \\   || (   ) |\n  /\\____) || )   ( |___) (___| )  \\  || )   ( |\n  \\_______)|/     \\|\\_______/|/    )_)|/     \\|\n\n\nsmina is based off AutoDock Vina. Please cite appropriately.\n\nWeights      Terms\n-0.045       gauss(o=0,_w=0.8,_c=8)\n0.8          repulsion(o=0,_c=8)\n-0.035       hydrophobic(g=0,_b=2.5,_c=8)\n-0.6         non_dir_h_bond(g=-0.6,_b=0,_c=8)\n0            num_tors_div\n\nUsing random seed: 403028723\n\n0%   10   20   30   40   50   60   70   80   90   100%\n|----|----|----|----|----|----|----|----|----|----|\n***************************************************\n\nmode |   affinity | dist from best mode\n     | (kcal/mol) | rmsd l.b.| rmsd u.b.\n-----+------------+----------+----------\n1       -8.5       0.000      0.000    \n2       -8.3       1.844      8.595    \n3       -8.3       2.635      8.345    \n4       -8.2       1.919      8.697    \n5       -8.2       2.494      8.659    \n6       -8.1       1.437      3.178    \n7       -8.0       2.187      8.558    \n8       -8.0       2.880      8.723    \n9       -7.9       2.106      3.398    \n10      -7.9       3.106      4.342    \n11      -7.9       3.941      6.127    \n12      -7.7       2.655      8.242    \n13      -7.7       3.343      5.088    \n14      -7.6       3.782      7.016    \n15      -7.6       2.197      8.297    \n16      -7.5       2.463      8.559    \n17      -7.5       3.211      5.058    \n18      -7.5       2.220      8.504    \n19      -7.5       2.807      4.340    \n20      -7.4       3.119      6.784    \nRefine time 13.362\nLoop time 14.567\n",
+      "asp_interaction": {
+        "found": false,
+        "reason": "Asp82 not found"
+      },
+      "receptor": "03_relaxation/output/ensemble/ensemble_005.pdb",
+      "poses": [
+        "04_docking/output/ensemble_005_poses/pose_01.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_02.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_03.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_04.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_05.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_06.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_07.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_08.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_09.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_10.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_11.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_12.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_13.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_14.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_15.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_16.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_17.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_18.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_19.pdbqt",
+        "04_docking/output/ensemble_005_poses/pose_20.pdbqt"
+      ]
+    }
+  ]
+}
