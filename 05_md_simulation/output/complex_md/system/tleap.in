@@ -1,0 +1,27 @@
+
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+source leaprc.water.tip3p
+
+# Load ligand parameters
+loadamberparams /Users/aneeshbondugula/Downloads/QTY_docking/05_md_simulation/output/complex_md/parameters/fentanyl.frcmod
+LIG = loadmol2 /Users/aneeshbondugula/Downloads/QTY_docking/05_md_simulation/output/complex_md/parameters/fentanyl.mol2
+
+# Load receptor
+receptor = loadpdb /Users/aneeshbondugula/Downloads/QTY_docking/05_md_simulation/output/complex_md/receptor_prepared.pdb
+
+# Create complex
+complex = combine {receptor LIG}
+
+# Add water box (12 Å padding)
+solvatebox complex TIP3PBOX 12.0
+
+# Add ions (0.15 M NaCl)
+addionsrand complex Na+ 0
+addionsrand complex Cl- 0
+
+# Save files
+saveamberparm complex /Users/aneeshbondugula/Downloads/QTY_docking/05_md_simulation/output/complex_md/system/complex.prmtop /Users/aneeshbondugula/Downloads/QTY_docking/05_md_simulation/output/complex_md/system/complex.inpcrd
+savepdb complex /Users/aneeshbondugula/Downloads/QTY_docking/05_md_simulation/output/complex_md/system/complex.pdb
+
+quit
